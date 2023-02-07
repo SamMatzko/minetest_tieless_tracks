@@ -14,14 +14,14 @@ advtrains.register_tracks("default", {
 	formats={},
 }, advtrains.ap.t_30deg_flat)
 
--- minetest.register_craft({
--- 	output = 'advtrains:dtrack_placer 50',
--- 	recipe = {
--- 		{'default:steel_ingot', '', 'default:steel_ingot'},
--- 		{'default:steel_ingot', '', 'default:steel_ingot'},
--- 		{'default:steel_ingot', '', 'default:steel_ingot'},
--- 	},
--- })
+minetest.register_craft({
+	output = 'advtrains:dtrack_tieless_placer 50',
+	recipe = {
+		{'default:steel_ingot', '', 'default:steel_ingot'},
+		{'default:steel_ingot', '', 'default:steel_ingot'},
+		{'default:steel_ingot', '', 'default:steel_ingot'},
+	},
+})
 
 -- Y-turnout
 advtrains.register_tracks("default", {
@@ -34,14 +34,14 @@ advtrains.register_tracks("default", {
 	formats = {},
 }, advtrains.ap.t_yturnout)
 
--- minetest.register_craft({
--- 	output = 'advtrains:dtrack_sy_placer 2',
--- 	recipe = {
--- 		{'advtrains:dtrack_placer', '', 'advtrains:dtrack_placer'},
--- 		{'', 'advtrains:dtrack_placer', ''},
--- 		{'', 'advtrains:dtrack_placer', ''},
--- 	},
--- })
+minetest.register_craft({
+	output = 'advtrains:dtrack_sy_tieless_placer 2',
+	recipe = {
+		{'advtrains:dtrack_tieless_placer', '', 'advtrains:dtrack_tieless_placer'},
+		{'', 'advtrains:dtrack_tieless_placer', ''},
+		{'', 'advtrains:dtrack_tieless_placer', ''},
+	},
+})
 
 -- 3-way turnout
 advtrains.register_tracks("default", {
@@ -54,14 +54,14 @@ advtrains.register_tracks("default", {
 	formats = {},
 }, advtrains.ap.t_s3way)
 
--- minetest.register_craft({
--- 	output = 'advtrains:dtrack_s3_placer 1',
--- 	recipe = {
--- 		{'advtrains:dtrack_placer', 'advtrains:dtrack_placer', 'advtrains:dtrack_placer'},
--- 		{'', 'advtrains:dtrack_placer', ''},
--- 		{'', '', ''},
--- 	},
--- })
+minetest.register_craft({
+	output = 'advtrains:dtrack_s3_tieless_placer 1',
+	recipe = {
+		{'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer'},
+		{'', 'advtrains:dtrack_tieless_placer', ''},
+		{'', '', ''},
+	},
+})
 
 -- Perpendicular Crossing
 advtrains.register_tracks("default", {
@@ -74,14 +74,14 @@ advtrains.register_tracks("default", {
 	formats = {}
 }, advtrains.ap.t_perpcrossing)
 
--- minetest.register_craft({
--- 	output = 'advtrains:dtrack_xing_placer 3',
--- 	recipe = {
--- 		{'', 'advtrains:dtrack_placer', ''},
--- 		{'advtrains:dtrack_placer', 'advtrains:dtrack_placer', 'advtrains:dtrack_placer'},
--- 		{'', 'advtrains:dtrack_placer', ''}
--- 	}
--- })
+minetest.register_craft({
+	output = 'advtrains:dtrack_xing_tieless_placer 3',
+	recipe = {
+		{'', 'advtrains:dtrack_tieless_placer', ''},
+		{'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer'},
+		{'', 'advtrains:dtrack_tieless_placer', ''}
+	}
+})
 
 -- 90plusx
 -- When you face east and param2=0, then this set of rails has a rail at 90
@@ -96,14 +96,14 @@ advtrains.register_tracks("default", {
 	formats = {}
 }, advtrains.ap.t_90plusx_crossing)
 
--- minetest.register_craft({
--- 	output = 'advtrains:dtrack_xing90plusx_placer 2',
--- 	recipe = {
--- 		{'advtrains:dtrack_placer', '', ''},
--- 		{'advtrains:dtrack_placer', 'advtrains:dtrack_placer', 'advtrains:dtrack_placer'},
--- 		{'', '', 'advtrains:dtrack_placer'}
--- 	}
--- })
+minetest.register_craft({
+	output = 'advtrains:dtrack_xing90plusx_tieless_placer 2',
+	recipe = {
+		{'advtrains:dtrack_tieless_placer', '', ''},
+		{'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer', 'advtrains:dtrack_tieless_placer'},
+		{'', '', 'advtrains:dtrack_tieless_placer'}
+	}
+})
 
 -- Station/stop rail
 -- ##################################################################################################################################

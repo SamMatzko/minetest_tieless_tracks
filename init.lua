@@ -7,7 +7,7 @@
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_tieless",
 	texture_prefix="advtrains_dtrack_tieless",
-	models_prefix="advtrains_dtrack",
+	models_prefix="advtrains_dtrack_tieless",
 	models_suffix=".b3d",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	description=attrans("Track (Tieless)"),
@@ -27,7 +27,7 @@ minetest.register_craft({
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_sy_tieless",
 	texture_prefix="advtrains_dtrack_sy_tieless",
-	models_prefix="advtrains_dtrack_sy",
+	models_prefix="advtrains_dtrack_sy_tieless",
 	models_suffix=".obj",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	description=attrans("Y-turnout (Tieless)"),
@@ -47,7 +47,7 @@ minetest.register_craft({
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_s3_tieless",
 	texture_prefix="advtrains_dtrack_s3_tieless",
-	models_prefix="advtrains_dtrack_s3",
+	models_prefix="advtrains_dtrack_s3_tieless",
 	models_suffix=".obj",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	description=attrans("3-way turnout (Tieless)"),
@@ -67,7 +67,7 @@ minetest.register_craft({
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_xing_tieless",
 	texture_prefix="advtrains_dtrack_xing_tieless",
-	models_prefix="advtrains_dtrack_xing",
+	models_prefix="advtrains_dtrack_xing_tieless",
 	models_suffix=".obj",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	description=attrans("Perpendicular Diamond Crossing Track (Tieless)"),
@@ -89,7 +89,7 @@ minetest.register_craft({
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_xing90plusx_tieless",
 	texture_prefix="advtrains_dtrack_xing4590_tieless",
-	models_prefix="advtrains_dtrack_xing90plusx",
+	models_prefix="advtrains_dtrack_xing90plusx_tieless",
 	models_suffix=".obj",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	description=attrans("90+Angle Diamond Crossing Track (Tieless)"),
@@ -319,7 +319,7 @@ if minetest.get_modpath("advtrains_train_track") ~= nil then
 	advtrains.register_tracks("default", {
 		nodename_prefix="advtrains_line_automation:dtrack_stop_tieless",
 		texture_prefix="advtrains_dtrack_stop_tieless",
-		models_prefix="advtrains_dtrack",
+		models_prefix="advtrains_dtrack_tieless",
 		models_suffix=".b3d",
 		shared_texture="advtrains_dtrack_shared_stop_tieless.png",
 		description="Station/Stop Rail (Tieless)",

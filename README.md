@@ -1,6 +1,6 @@
 # Tieless Tracks for [Minetest](https://minetest.net) [Advanced Trains](https://content.minetest.net/packages/orwell/advtrains/)
 
-#### Note: this mod uses modified code and textures from the advtrains_train_track mod, which is part of the [Advtrains modpack](https://content.minetest.net/packages/orwell/advtrains/). See the licensing below for more information.
+#### Note: this mod uses modified code and media from the advtrains_train_track mod, which is part of the [Advtrains modpack](https://content.minetest.net/packages/orwell/advtrains/). See the licensing below for more information.
 
 Tieless Tracks provides some basic train tracks without crossties. For use in any situation where wooden crossties would be unwanted, such as streetcars, road crossings, and stations.
 

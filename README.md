@@ -6,7 +6,7 @@ Tieless Tracks provides some basic train tracks without crossties. For use in an
 
 ## Screenshots
 
-![the various types of tieless track](https://github.com/SamMatzko/minetest_tieless_tracks/blob/master/screenshots/Screenshot%20from%202023-02-07%2010-47-25.png)
+![the various types of tieless track](https://github.com/SamMatzko/minetest_tieless_tracks/blob/master/screenshots/Screenshot%20from%202023-03-04%2017-29-56.png)
 
 ![an above-ground subway train running on the tieless tracks in a city street](https://github.com/SamMatzko/minetest_tieless_tracks/blob/master/screenshots/Screenshot%20from%202023-02-07%2011-02-29.png)
 

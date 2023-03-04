@@ -105,6 +105,28 @@ minetest.register_craft({
 	}
 })
 
+-- Slopes
+advtrains.register_tracks("default", {
+	nodename_prefix="advtrains:dtrack_tieless",
+	texture_prefix="advtrains_dtrack_tieless",
+	models_prefix="advtrains_dtrack",
+	models_suffix=".obj",
+	shared_texture="advtrains_dtrack_tieless_shared.png",
+	second_texture="default_gravel.png",
+	description=attrans("Track (Tieless)"),
+	formats={vst1={true, false, true}, vst2={true, false, true}, vst31={true}, vst32={true}, vst33={true}},
+}, advtrains.ap.t_30deg_slope)
+
+minetest.register_craft({
+	type = "shapeless",
+	output = 'advtrains:dtrack_slopeplacer 2',
+	recipe = {
+		"advtrains:dtrack_placer",
+		"advtrains:dtrack_placer",
+		"default:gravel",
+	},
+})
+
 -- Station/stop rail
 -- ##################################################################################################################################
 local function to_int(n)

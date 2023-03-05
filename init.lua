@@ -109,7 +109,7 @@ minetest.register_craft({
 advtrains.register_tracks("default", {
 	nodename_prefix="advtrains:dtrack_tieless",
 	texture_prefix="advtrains_dtrack_tieless",
-	models_prefix="advtrains_dtrack",
+	models_prefix="advtrains_dtrack_tieless",
 	models_suffix=".obj",
 	shared_texture="advtrains_dtrack_tieless_shared.png",
 	second_texture="default_gravel.png",
